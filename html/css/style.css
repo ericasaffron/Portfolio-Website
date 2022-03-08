@@ -112,7 +112,7 @@ h2,
   font-size: 2.7rem;
   line-height: 1.2;
   color: #fff;
-  margin:2rem 0;
+  margin:0.5rem 0;
 }
 
 
@@ -624,7 +624,16 @@ ion-icon{
   margin-right: 1rem;
 }
 
-.navbar-desctop .portfolio{
+.navbar-desctop .about{
+  float: left;
+  font-family: 'Karla', sans-serif;
+  position: relative;
+  top:0.3rem;
+  margin-right: 1rem;
+}
+
+
+.navbar-desctop .work{
   float: left;
   font-family: 'Karla', sans-serif;
   position: relative;
@@ -640,7 +649,7 @@ ion-icon{
   margin-right: 1rem;
 }
 
-.navbar-desctop .about{
+.navbar-desctop .resume{
   float: left;
   font-family: 'Karla', sans-serif;
   position: relative;
@@ -677,15 +686,15 @@ ion-icon{
 }
 
 .navbar-bottom .social{
-  position: relative;
+  position: absolute;
   z-index: 10;
   float: left;
 }
 
 .navbar-bottom .copy{
-  float: right;
   position: relative;
   z-index: 10;
+  float: right;
 }
 
 .social-icons li{
@@ -950,7 +959,8 @@ ion-icon{
 
 
 .navbar-white{
-  border-bottom: 1px solid rgba(255,255,255,0.1);
+  background-color: rgba(0, 0, 0, 0.192);
+  border-bottom: 1px solid rgba(255,255,255,5);
 }
 
 .navbar-white:not(.fixed) .phone,
@@ -1125,7 +1135,7 @@ h1 + .line{
 }
 
 .progress-nav li.active ~ li:before {
-    background-color: #101010;
+    background-color: #fff;
 }
 
 .progress-nav-white li.active ~ li:before{
@@ -1393,6 +1403,14 @@ h1 + .line{
   margin-top: 30px;
 }
 
+#box4{
+  filter: grayscale(1);
+}
+
+#box5{
+  filter: grayscale(1);
+}
+
 .project-box{
   display: block;
   padding-bottom: 30%;
@@ -1417,6 +1435,12 @@ h1 + .line{
   color: #fff;
 }
 
+.project-box h5{
+  margin:0;
+  color: #fff;
+}
+
+
 .project-category{
   color: rgba(255, 255, 255, 0.692);
   margin-top: 0.5rem;
@@ -1429,6 +1453,10 @@ h1 + .line{
 }
 
 .project-box:hover h4{
+  color: #000;
+}
+
+.project-box:hover h5{
   color: #000;
 }
 

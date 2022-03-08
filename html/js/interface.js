@@ -32,7 +32,7 @@
             scrollingSpeed: 280,
             navigation:false,
             menu: '.navbar-nav',
-            anchors: ['home','portfolio', 'skills', 'about', 'contact'],
+            anchors: ['home', 'about', 'work', 'contact' ,'resume'],
             afterRender: function(anchorLink, index){ 
               NavbarColor();
 
