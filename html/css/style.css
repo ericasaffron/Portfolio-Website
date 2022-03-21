@@ -530,6 +530,12 @@ ion-icon{
 -------------------------------------------------------------------------------*/
 
 
+@media(max-width: 400px) {
+  .navbar-white:not(.fixed){
+
+  }
+}
+
 
 .navbar{
   position: absolute;
@@ -662,7 +668,7 @@ ion-icon{
   font-family: 'Karla', sans-serif;
   position: relative;
   top:0.3rem;
-  margin-right: 5rem;
+  margin-right: 1rem;
 }
 
 .navbar-bottom{
