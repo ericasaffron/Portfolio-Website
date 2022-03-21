@@ -530,9 +530,9 @@ ion-icon{
 -------------------------------------------------------------------------------*/
 
 
-@media(max-width: 400px) {
-  .navbar-white:not(.fixed){
-
+@media(max-width: 610px) {
+  .navbar-desctop .about,.home,.resume,.work, .contact {
+    visibility: hidden;
   }
 }
 
