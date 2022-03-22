@@ -824,6 +824,20 @@ ion-icon{
 
 /* 2.2 Navbar Mobile */
 
+@media(max-width: 840px) {
+  .navbar-mobile .email, .navbar-white:not(.fixed) .email {
+    visibility: hidden;
+  }
+}
+
+
+@media(max-width: 610px) {
+  .navbar-mobile .about,.home,.resume,.work, .contact{
+    visibility: hidden;
+  }
+}
+
+
 
 .click-capture{
   position: fixed;
