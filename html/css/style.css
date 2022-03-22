@@ -539,7 +539,7 @@ ion-icon{
 
 
 @media(max-width: 610px) {
-  .navbar-desctop .about,.home,.resume,.work, .contact {
+  .navbar-desctop .about,.home,.resume,.work, .contact{
     visibility: hidden;
   }
 }
