@@ -552,6 +552,7 @@ ion-icon{
   padding: 0 1.5rem;
   border-bottom: 1px solid rgba(52,52,52,0.1);
   height:4.7rem;
+  backdrop-filter: blur(10px);
 }
 
 
